@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <link href="/src/style.css" rel="stylesheet" />
+
+    <script type="module" src="/src/main.js"></script>
+
+    <title>Frontend Mentor | Frontend quiz app</title>
+  </head>
+  <body class="bg-blue-900 flex flex-col items-center justify-center min-h-screen">
+    <main class="startMenu bg-pattern">
+      <header class="mainContent">
+        <!-- Subject List -->
+        <div class="subjectList">
+          <img class="" src="" alt="" />
+          <span class="min-w-27.75 min-h-4.5"></span>
+        </div>
+        <!-- Toggle Container -->
+        <div class="toggleContainer">
+          <img class=" size-4 md:size-6" src="assets/images/icon-sun-light.svg" alt="" />
+          <label class="w-8 h-5 md:w-12 md:h-7 rounded-full bg-purple-600 px-1 py-1" for="">
+            <input class="sr-only" type="checkbox" />
+            <span class="absolute translate-x-3 md:translate-x-5 size-3 md:size-5 rounded-full bg-white"></span>
+          </label>
+          <img class="size-4 md:size-6" src="assets/images/icon-moon-light.svg" alt="" />
+        </div>
+      </header>
+      <!-- Main Container -->
+      <div class="mainContainer">
+        <!-- Header Container -->
+        <div class="headerContainer">
+          <h1 class="text-preset-2-medium">
+            <span class="block mb-2 text-preset-2-light">Welcome to the</span> Frontend Quiz!
+          </h1>
+          <p class="text-preset-5-italic ">Pick a subject to get started.</p>
+        </div>
+        <!-- Subjects Container -->
+        <div class="subjectsContainer gap-4 md:gap-6 xl:gap-4">
+          <!-- Subject Item -->
+          <div class="subjectItem flex items-center rounded-xl md:rounded-3xl">
+            <div class="flex justify-center items-center size-10 md:size-14 bg-orange-50 rounded-lg">
+              <img class="size-[28.57px] md:size-10" src="assets/images/icon-html.svg" alt="" />
+            </div>
+            <span class="text-preset-4 ">HTML</span>
+          </div>
+          <div class="subjectItem flex items-center rounded-xl md:rounded-3xl">
+            <div class="flex justify-center items-center size-10 md:size-14 bg-green-100 rounded-lg">
+              <img class="size-[28.57px] md:size-10" src="assets/images/icon-css.svg" alt="" />
+            </div>
+            <span class="text-preset-4">CSS</span>
+          </div>
+          <div class="subjectItem flex items-center rounded-xl md:rounded-3xl">
+            <div class="flex justify-center items-center size-10 md:size-14 bg-blue-50 rounded-lg">
+              <img class="size-[28.57px] md:size-10" src="assets/images/icon-js.svg" alt="" />
+            </div>
+            <span class="text-preset-4 ">JavaScript</span>
+          </div>
+          <div class="subjectItem flex items-center rounded-xl md:rounded-3xl">
+            <div class="flex justify-center items-center size-10 md:size-14 bg-purple-100 rounded-lg">
+              <img class="size-[28.57px] md:size-10" src="assets/images/icon-accessibility.svg" alt="" />
+            </div>
+            <span class="text-preset-4 ">Accessibility</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<h1 hidden>
+
+
+  Question
+  <!-- number -->
+  of 10 A B C D Submit answer
+
+  <!-- Quiz question end -->
+
+  <!-- Quiz completed start -->
+
+  Quiz completed You scored...
+
+  <!-- score -->
+  out of 10
+
+  <!-- Quiz completed end -->
+</h1>

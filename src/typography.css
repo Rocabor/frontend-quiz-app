@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("/assets/fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubiki";
+  src: url("/assets/fonts/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-rubik: "Rubik", sans-serif;
+  --font-rubiki: "Rubiki", sans-serif;
+}
+
+/* @utility text-preset-1 {
+  @apply font-rubik text-[88px] md:text-[144px] font-medium leading-none;
+} */
+
+@utility text-preset-2-medium {
+  @apply font-rubik text-[40px] md:text-[64px] font-medium leading-none;
+}
+
+@utility text-preset-2-light {
+  @apply font-rubik text-[40px] md:text-[64px] font-light leading-none;
+}
+
+/* @utility text-preset-3 {
+  @apply font-rubik text-[20px] md:text-[36px] font-medium leading-[1.2];
+} */
+
+@utility text-preset-4 {
+  @apply font-rubik text-[18px] md:text-[28px] font-medium leading-none;
+}
+
+@utility text-preset-5-medium {
+  @apply font-rubik text-[24px] font-medium leading-normal;
+}
+
+@utility text-preset-5-regular {
+  @apply font-rubik text-[24px] font-normal leading-normal;
+}
+
+@utility text-preset-5-italic {
+  @apply font-rubiki text-[14px] md:text-[20px] font-normal italic leading-normal text-blue-300;
+}
+
+/* @utility text-preset-6 {
+  @apply font-rubik text-[14px] md:text-[20px] font-normal leading-normal;
+} */
