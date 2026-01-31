@@ -3,5 +3,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: "/Rocabor/", // DEBE coincidir exactamente con el nombre en GitHub
+  base: "/Frontend-quiz-app/", // DEBE coincidir exactamente con el nombre en GitHub
 });
