@@ -30,9 +30,9 @@
   @apply font-rubik text-[40px] md:text-[64px] font-light leading-none;
 }
 
-/* @utility text-preset-3 {
+@utility text-preset-3 {
   @apply font-rubik text-[20px] md:text-[36px] font-medium leading-[1.2];
-} */
+}
 
 @utility text-preset-4 {
   @apply font-rubik text-[18px] md:text-[28px] font-medium leading-none;
