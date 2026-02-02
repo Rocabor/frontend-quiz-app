@@ -51,7 +51,20 @@
   @variant xl {
     background-image: url("/assets/images/pattern-background-desktop-dark.svg");
     background-size: cover;
-    /* background-position: center; */
+  }
+}
+
+@utility bg-pattern-light {
+  background-image: url("/assets/images/pattern-background-mobile-light.svg");
+  background-repeat: no-repeat;
+
+  @variant md {
+    background-image: url("/assets/images/pattern-background-tablet-light.svg");
+  }
+
+  @variant xl {
+    background-image: url("/assets/images/pattern-background-desktop-light.svg");
+    background-size: cover;
   }
 }
 
